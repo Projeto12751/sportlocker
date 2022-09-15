@@ -1,0 +1,1157 @@
+@font-face {
+    font-family: 'Akira';
+    src: url(../font/akira.otf);
+}
+
+/**/
+/**/
+/* COMPUTADOR E NOTEBOOK */
+/**/
+/**/
+
+@media screen and (min-width: 1200px) {
+
+    /* MENU */
+    #menu {
+        background-color: #F4A460;
+        height: 60px;
+        text-align: center;
+        margin-top: 0px solid;
+        width: 100%;
+        font-family: 'Akira';
+        font-size: 300%;
+        color: black;
+        letter-spacing: -3px;
+    }
+
+    #logo {
+        height: 4em;
+        width: 4em;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navega {
+        background-color: black;
+    }
+
+
+
+    /* Links dos nomes */
+    #nomemenu2 {
+        font-size: 171%;
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Akira';
+    }
+
+    #link4,
+    #link5,
+    #link6 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link5,
+    #link6 {
+        margin-left: 8%;
+    }
+
+    #link4:hover,
+    #link5:hover,
+    #link6:hover {
+        color: #F4A460;
+    }
+
+
+    /* botaos de navegacao*/
+    #botaonavegation {
+        text-align: right;
+        margin-bottom: 5px;
+    }
+
+    #gostar {
+        height: 40px;
+        width: 40px;
+        margin-top: 2%;
+    }
+
+    #usuario {
+        height: 35px;
+        width: 35px;
+        margin-left: 8px;
+        margin-top: 2%;
+    }
+
+    #carrinho {
+        height: 40px;
+        width: 40px;
+        margin-left: 5px;
+        margin-top: 2%;
+    }
+
+
+    /* CORPO */
+    body {
+        background-color: white;
+    }
+
+
+    #pesquisar {
+        text-align: center;
+    }
+
+    #inputpesquisa {
+        width: 50em;
+        height: 2.4em;
+        box-shadow: 0 0 9px black;
+        border-radius: 10px;
+        color: black;
+    }
+
+    #botaopesquisa {
+        height: 2.4em;
+        border-radius: 10px;
+        background-color: #F4A460;
+        color: black;
+    }
+
+
+    /* Tela itens */
+    #containeritens {
+        height: 120%;
+    }
+
+    .imageitens {
+        height: 100%;
+        width: 100%;
+
+        box-shadow: 3px 3px 3px #F4A460;
+    }
+
+    .nome_itens {
+        margin-top: 15px;
+        font-family: 'Akira';
+    }
+
+    .nome_itens:hover {
+        color: #F4A460;
+    }
+
+    #itens {
+        border-top: 40px solid white;
+        text-align: center;
+        background-color: white;
+    }
+
+    #botaoitem {
+        text-transform: none;
+        text-decoration: none;
+        font-size: 150%;
+        color: black;
+    }
+
+    #botaoitem:hover {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+
+
+
+    #botao {
+        background-color: #F5DF99;
+        color: black;
+
+    }
+
+
+    /* FOORTER */
+    #footer {
+        color: white;
+    }
+
+    #footerprin {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* MENU */
+    #menu {
+        background-color: #F4A460;
+        height: 55px;
+        text-align: center;
+        margin-top: 0px solid;
+        width: 100%;
+        font-family: 'Akira';
+        font-size: 300%;
+        color: black;
+        letter-spacing: -3px;
+    }
+
+    #logo {
+        height: 3.5em;
+        width: 3.5em;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navega {
+        background-color: black;
+    }
+
+
+
+    /* barra aparecida*/
+    #nomemenu2 {
+        font-size: 150%;
+        margin-top: 0.5em;
+        text-align: center;
+        font-family: 'Akira';
+    }
+
+    #link4 {
+        margin-left: 2.6em;
+    }
+
+    #link4,
+    #link5,
+    #link6 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link5,
+    #link6 {
+        margin-left: 4%;
+    }
+
+    #link4:hover,
+    #link5:hover,
+    #link6:hover {
+        color: #F4A460;
+    }
+
+
+    /* botaos de navegacao*/
+    #botaonavegation {
+        text-align: right;
+        margin-bottom: 5px;
+    }
+
+    #gostar {
+        height: 40px;
+        width: 40px;
+        margin-top: 2%;
+    }
+
+    #usuario {
+        height: 35px;
+        width: 35px;
+        margin-left: 8px;
+        margin-top: 2%;
+    }
+
+    #carrinho {
+        height: 40px;
+        width: 40px;
+        margin-left: 5px;
+        margin-top: 2%;
+    }
+
+
+
+
+    /* CORPO */
+    body {
+        background-color: white;
+    }
+
+
+    /* Tela itens */
+    #containeritens {
+        height: 120%;
+    }
+
+
+
+    .imageitens {
+        height: 100%;
+        width: 100%;
+
+        box-shadow: 3px 3px 3px #F4A460;
+    }
+
+    .nome_itens {
+        margin-top: 15px;
+        font-family: 'Akira';
+    }
+
+    .nome_itens:hover {
+        color: #F4A460;
+    }
+
+    #itens {
+        border-top: 40px solid white;
+        text-align: center;
+        background-color: white;
+    }
+
+    #botaoitem {
+        text-transform: none;
+        text-decoration: none;
+        font-size: 150%;
+        color: black;
+    }
+
+    #botaoitem:hover {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+
+
+
+    #botao {
+        background-color: #F5DF99;
+        color: black;
+
+    }
+
+
+    /* FOORTER */
+    #footer {
+        color: white;
+    }
+
+    #footerprin {
+        margin-top: 10px;
+    }
+}
+
+
+
+/**/
+/**/
+/* TABLET */
+/**/
+/**/
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* MENU */
+    #menu {
+        background-color: #F4A460;
+        height: 50px;
+        text-align: center;
+        width: 100%;
+        font-family: 'Akira';
+        font-size: 254%;
+        color: black;
+        letter-spacing: -3px;
+    }
+
+    #logo {
+        height: 3.3em;
+        width: 3.3em;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navega {
+        background-color: black;
+    }
+
+
+    /* barra escondida */
+    #link1,
+    #link2,
+    #link3 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link2,
+    #link3 {
+        margin-left: 8%;
+    }
+
+    #link1:hover,
+    #link2:hover,
+    #link3:hover {
+        color: #F4A460;
+    }
+
+    #nomemenu {
+        font-size: 133%;
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Akira';
+    }
+
+
+    /* barra aparecida*/
+    #nomemenu2 {
+        font-size: 139%;
+        margin-top: 0.5em;
+        text-align: center;
+        font-family: 'Akira';
+    }
+
+    #link4 {
+        margin-left: 10%;
+    }
+
+    #link4,
+    #link5,
+    #link6 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link5,
+    #link6 {
+        margin-left: 0.3em;
+    }
+
+    #link4:hover,
+    #link5:hover,
+    #link6:hover {
+        color: #F4A460;
+    }
+
+
+    /* botaos de navegacao*/
+    #botaonavegation {
+        text-align: right;
+        margin-bottom: 5px;
+    }
+
+    #gostar {
+        height: 2.7em;
+        width: 2.7em;
+        margin-right: 0.4em;
+        margin-top: 2%;
+    }
+
+    #usuario {
+        height: 2.7em;
+        width: 2.7em;
+        margin-right: 0.1em;
+        margin-top: 2%;
+    }
+
+    #carrinho {
+        height: 2.7em;
+        width: 2.7em;
+        margin-top: 2%;
+    }
+
+
+    /* CORPO */
+    body {
+        background-color: white;
+    }
+
+
+    /* Tela itens */
+    #containeritens {
+        height: 120%;
+    }
+
+
+
+    .imageitens {
+        height: 100%;
+        width: 100%;
+
+        box-shadow: 3px 3px 3px #F4A460;
+    }
+
+    .nome_itens {
+        margin-top: 15px;
+        font-family: 'Akira';
+    }
+
+    .nome_itens:hover {
+        color: #F4A460;
+    }
+
+    #itens {
+        border-top: 40px solid white;
+        text-align: center;
+        background-color: white;
+    }
+
+    #botaoitem {
+        text-transform: none;
+        text-decoration: none;
+        font-size: 150%;
+        color: black;
+    }
+
+    #botaoitem:hover {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+
+
+
+    #botao {
+        background-color: #F5DF99;
+        color: black;
+
+    }
+
+
+    /* FOORTER */
+    #footer {
+        color: white;
+    }
+
+    #footerprin {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+
+
+    /* MENU */
+    #menu {
+        background-color: #F4A460;
+        height: 40px;
+        text-align: center;
+        width: 100%;
+        font-family: 'Akira';
+        font-size: 200%;
+        color: black;
+        letter-spacing: -3px;
+    }
+
+    #logo {
+        height: 3.1em;
+        width: 3.1em;
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navega {
+        background-color: black;
+    }
+
+
+    /* barra escondida */
+    #link1,
+    #link2,
+    #link3 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link1:hover,
+    #link2:hover,
+    #link3:hover {
+        color: #F4A460;
+    }
+
+    #nomemenu {
+        font-size: 133%;
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Akira';
+    }
+
+
+    /* botaos de navegacao*/
+    #botaonavegation {
+        text-align: center;
+        margin-left: 2em;
+        margin-bottom: 5px;
+    }
+
+    #gostar {
+        height: 2.7em;
+        width: 2.7em;
+        margin-right: 0.4em;
+        margin-top: 2%;
+    }
+
+    #usuario {
+        height: 2.7em;
+        width: 2.7em;
+        margin-right: 0.1em;
+        margin-top: 2%;
+    }
+
+    #carrinho {
+        height: 2.7em;
+        width: 2.7em;
+        margin-top: 2%;
+    }
+
+    #botaomenu {
+        text-align: left;
+    }
+
+
+    /* CORPO */
+    body {
+        background-color: white;
+    }
+
+
+    /* Tela itens */
+    #containeritens {
+        height: 120%;
+    }
+
+    .imageitens {
+        height: 100%;
+        width: 100%;
+
+        box-shadow: 3px 3px 3px #F4A460;
+    }
+
+    .nome_itens {
+        margin-top: 0.1em;
+        font-family: 'Akira';
+    }
+
+    .nome_itens:hover {
+        color: #F4A460;
+    }
+
+    #itens {
+        border-top: 40px solid white;
+        text-align: center;
+        background-color: white;
+    }
+
+    #botaoitem {
+        text-transform: none;
+        text-decoration: none;
+        font-size: 100%;
+        color: black;
+    }
+
+    #botaoitem:hover {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+
+
+
+    #botao {
+        background-color: #F5DF99;
+        color: black;
+
+    }
+
+
+    /* FOORTER */
+    #footer {
+        color: white;
+    }
+
+    #footerprin {
+        margin-top: 10px;
+    }
+}
+
+
+
+/**/
+/**/
+/* CELULAR */
+/**/
+/**/
+
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+
+
+    /* MENU */
+    #menu {
+        background-color: #F4A460;
+        height: 40px;
+        text-align: center;
+        width: 100%;
+        font-family: 'Akira';
+        font-size: 200%;
+        color: black;
+        letter-spacing: -3px;
+    }
+
+    #logo {
+        height: 3.1em;
+        width: 3.1em;
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navega {
+        background-color: black;
+    }
+
+
+    /* barra escondida */
+    #link1,
+    #link2,
+    #link3 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link1:hover,
+    #link2:hover,
+    #link3:hover {
+        color: #F4A460;
+    }
+
+    #nomemenu {
+        font-size: 133%;
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Akira';
+    }
+
+
+    /* botaos de navegacao*/
+    #botaonavegation {
+        text-align: center;
+        margin-left: 2em;
+        margin-bottom: 5px;
+    }
+
+    #gostar {
+        height: 2.7em;
+        width: 2.7em;
+        margin-right: 0.4em;
+        margin-top: 2%;
+    }
+
+    #usuario {
+        height: 2.7em;
+        width: 2.7em;
+        margin-right: 0.1em;
+        margin-top: 2%;
+    }
+
+    #carrinho {
+        height: 2.7em;
+        width: 2.7em;
+        margin-top: 2%;
+    }
+
+    #botaomenu {
+        text-align: left;
+    }
+
+
+    /* CORPO */
+    body {
+        background-color: white;
+    }
+
+
+    /* Tela itens */
+    #containeritens {
+        height: 120%;
+    }
+
+    .imageitens {
+        height: 100%;
+        width: 100%;
+
+        box-shadow: 3px 3px 3px #F4A460;
+    }
+
+    .nome_itens {
+        margin-top: 0.1em;
+        font-family: 'Akira';
+    }
+
+    .nome_itens:hover {
+        color: #F4A460;
+    }
+
+    #itens {
+        border-top: 40px solid white;
+        text-align: center;
+        background-color: white;
+    }
+
+    #botaoitem {
+        text-transform: none;
+        text-decoration: none;
+        font-size: 100%;
+        color: black;
+    }
+
+    #botaoitem:hover {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+
+
+
+    #botao {
+        background-color: #F5DF99;
+        color: black;
+
+    }
+
+
+    /* FOORTER */
+    #footer {
+        color: white;
+    }
+
+    #footerprin {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+
+    /* MENU */
+    #menu {
+        background-color: #F4A460;
+        height: 35px;
+        text-align: center;
+        width: 100%;
+        font-family: 'Akira';
+        font-size: 190%;
+        color: black;
+        letter-spacing: -3px;
+    }
+
+    #logo {
+        height: 3em;
+        width: 3em;
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navega {
+        background-color: black;
+    }
+
+
+    /* barra escondida */
+    #link1,
+    #link2,
+    #link3 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link1:hover,
+    #link2:hover,
+    #link3:hover {
+        color: #F4A460;
+    }
+
+    #nomemenu {
+        font-size: 133%;
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Akira';
+    }
+
+
+    /* botaos de navegacao*/
+    #botaonavegation {
+        text-align: center;
+        margin-left: 2em;
+        margin-bottom: 5px;
+    }
+
+    #gostar {
+        height: 2.5em;
+        width: 2.5em;
+        margin-right: 0.4em;
+        margin-top: 2%;
+    }
+
+    #usuario {
+        height: 2.5em;
+        width: 2.5em;
+        margin-right: 0.1em;
+        margin-top: 2%;
+    }
+
+    #carrinho {
+        height: 2.5em;
+        width: 2.5em;
+        margin-top: 2%;
+    }
+
+    #botaomenu {
+        text-align: left;
+        height: 3em;
+        width: 2.5em;
+    }
+
+
+    /* CORPO */
+    body {
+        background-color: white;
+    }
+
+
+    /* Tela itens */
+    #containeritens {
+        height: 120%;
+    }
+
+    .imageitens {
+        height: 110%;
+        width: 110%;
+
+        box-shadow: 3px 3px 3px #F4A460;
+    }
+
+    .nome_itens {
+        margin-top: 0.1em;
+        margin-left: 0.3em;
+        font-family: 'Akira';
+    }
+
+    .nome_itens:hover {
+        color: #F4A460;
+    }
+
+    #itens {
+        border-top: 40px solid white;
+        text-align: center;
+        background-color: white;
+    }
+
+    #botaoitem {
+        text-transform: none;
+        text-decoration: none;
+        font-size: 80%;
+        color: black;
+    }
+
+    #botaoitem:hover {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+
+
+
+    #botao {
+        background-color: #F5DF99;
+        color: black;
+
+    }
+
+
+    /* FOORTER */
+    #footer {
+        color: white;
+    }
+
+    #footerprin {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+
+    /* MENU */
+    #menu {
+        background-color: #F4A460;
+        height: 30px;
+        text-align: center;
+        width: 100%;
+        font-family: 'Akira';
+        font-size: 170%;
+        color: black;
+        letter-spacing: -3px;
+    }
+
+    #logo {
+        height: 3em;
+        width: 3em;
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navega {
+        background-color: black;
+    }
+
+
+    /* barra escondida */
+    #link1,
+    #link2,
+    #link3 {
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    #link1:hover,
+    #link2:hover,
+    #link3:hover {
+        color: #F4A460;
+    }
+
+    #nomemenu {
+        font-size: 120%;
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Akira';
+    }
+
+
+    /* botaos de navegacao*/
+    #botaonavegation {
+        text-align: right;
+        margin-bottom: 5px;
+    }
+
+    #gostar {
+        height: 2.5em;
+        width: 2.5em;
+        margin-right: 0.4em;
+        margin-top: 2%;
+    }
+
+    #usuario {
+        height: 2.5em;
+        width: 2.5em;
+        margin-right: 0.1em;
+        margin-top: 2%;
+    }
+
+    #carrinho {
+        height: 2.5em;
+        width: 2.5em;
+        margin-top: 2%;
+    }
+
+    #botaomenu {
+        text-align: left;
+    }
+
+
+
+
+    /* CORPO */
+    body {
+        background-color: white;
+    }
+
+
+    #pesquisar {
+        text-align: center;
+    }
+
+    #inputpesquisa {
+        width: 15em;
+        height: 2.4em;
+        box-shadow: 0 0 9px black;
+        border-radius: 10px;
+        color: black;
+    }
+
+    #botaopesquisa {
+        height: 2.4em;
+        border-radius: 10px;
+        background-color: #F4A460;
+        color: black;
+    }
+
+
+
+    /* Tela itens */
+    #containeritens {
+        height: 120%;
+    }
+
+    .imageitens {
+        height: 110%;
+        width: 110%;
+
+        box-shadow: 3px 3px 3px #F4A460;
+    }
+
+    .nome_itens {
+        margin-top: 0.1em;
+        margin-left: 0.4em;
+        font-family: 'Akira';
+    }
+
+    .nome_itens:hover {
+        color: #F4A460;
+    }
+
+    #itens {
+        border-top: 40px solid white;
+        text-align: center;
+        background-color: white;
+    }
+
+    #botaoitem {
+        text-transform: none;
+        text-decoration: none;
+        font-size: 60%;
+        color: black;
+    }
+
+    #botaoitem:hover {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+
+
+
+    #botao {
+        background-color: #F5DF99;
+        color: black;
+
+    }
+
+
+    /* FOORTER */
+    #footer {
+        color: white;
+    }
+
+    #footerprin {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,60 @@
+#nomecliente{
+    font-size: 2em;
+    color: white;
+    margin-left: 1em;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+#painelcliente{
+    background-color: 	black;
+    border-radius: 2em;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 0.5em 0.5em 5px #F4A460;
+}
+
+.campos{
+    margin-left: 2em;
+    font-size: 1.3em;
+    margin-bottom: 1.2em;
+    
+}
+.respcampos{
+    margin-left: 13em;
+    margin-right: 1em;
+    font-size: 1.1em;
+}
+
+
+#botaos{
+    margin-bottom: 2em;
+}
+#botaoalterar,#botaoexcluir,#botaosair{
+    font-size: 1em;
+    text-align: center;
+    text-transform: none;
+    margin-left: 3em;
+    text-decoration: none;
+    color: white;
+}
+#botaoalterar{
+    color: green;
+}
+#botaoexcluir{
+    color: red;
+}
+#botaosair{
+    text-align: right;
+    color: yellow;
+    margin-left: 25em;
+}
+
+#botaoalterar:hover,#botaoexcluir:hover,#botaosair:hover{
+    color: white;
+}
+
+
+

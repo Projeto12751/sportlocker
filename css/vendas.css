@@ -1,0 +1,300 @@
+@media screen and (min-width: 1200px) {
+    #produtos {
+        margin-left: 2.1em;
+        margin-top: 1em;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+
+    .nome_produto {
+        font-size: 1.5em;
+    }
+
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #produtos {
+        margin-left: 2.1em;
+        margin-top: 1em;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.5em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+
+
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #produtos {
+        width: 11.8em;
+        margin-left: 1em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.6em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    #produtos {
+        width: 11.8em;
+        margin-left: 1em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.3em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+
+
+
+/* Celular */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    #produtos {
+        width: 13.3em;
+        margin-left: 1em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.3em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 400px) {
+    #produtos {
+        width: 12.3em;
+        margin-left: 1em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.3em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+    }
+}
+
+@media screen and (min-width: 351px) and (max-width: 375px) {
+    #produtos {
+        width: 11em;
+        margin-left: 1.5em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.2em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 350px) {
+    #produtos {
+        width: 10.4em;
+        margin-left: 1em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.2em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 308px) and (max-width: 320px) {
+    #produtos {
+        width: 10em;
+        margin-left: 0.5em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.2em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 307px) {
+    #produtos {
+        width: 10em;
+        margin-left: 0.5em;
+        margin-top: 1em;
+        border: 0.1em solid #C0C0C0;
+        border-radius: 1em;
+        box-shadow: -0.1em 0.1em 3px black;
+    }
+
+    #produtos:hover {
+        box-shadow: 0 0 1em black;
+    }
+
+
+    .nome_produto {
+        font-size: 1.2em;
+    }
+
+    #linksprodutos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #linksprodutos:hover {
+        color: #F4A460;
+        text-decoration: underline;
+    }
+}
